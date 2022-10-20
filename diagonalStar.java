@@ -1,6 +1,6 @@
 /*package whatever //do not write package name here */
 
-import java.io.*;
+import java.    io.*;
 import java.util.Scanner;
 
 public class Main {
@@ -22,4 +22,16 @@ public class Main {
                 
         }
     }
+}
+Mthd 2:
+for(int i = 1; i<=num ;i++) {
+    for(int j = 1; j <= num ; j++) {
+        if(i==j) {
+            System.out.print("*\t");
+        }
+        else {
+            System.out.print("\t");
+        }
+    }
+    System.out.println();
 }
